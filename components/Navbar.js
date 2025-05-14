@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  document.addEventListener('mouseup', (e)=>{setMenuOpen(false)});
+  // document.addEventListener('mouseup', (e)=>{setMenuOpen(false)});
 
   return (
     <nav className="bg-fuchsia-700 flex justify-between items-center h-14 px-4 lg:px-8 text-white relative">
